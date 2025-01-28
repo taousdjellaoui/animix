@@ -1,0 +1,55 @@
+body{
+    color: white;
+    background-color: black;
+   
+
+} 
+header nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid white 1px;
+}
+  
+
+
+section{
+    
+        display: flex; /* Utilise Flexbox pour aligner les éléments */
+        justify-content: center; /* Centre les éléments horizontalement */
+        align-items: center; /* Centre les éléments verticalement */
+        height: 100vh; /* Fixe la hauteur du conteneur à 100% de la hauteur de la fenêtre */
+        
+      
+}
+form {
+    width: 400px; /* Largeur du formulaire */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+    text-align: center; /* Centre le contenu du formulaire */
+    background-color: rgb(24, 22, 22);
+    padding: 5%;
+   
+  }
+label {
+    display: block; /* Affiche chaque label sur une ligne séparée */
+    margin-bottom: 10px; /* Ajoute un espace entre chaque label et chaque champ de saisie */
+  }
+
+  input[type="text"], input[type="password"],input[type="email"] {
+    width: 100%; /* Remplit l'espace disponible */
+    padding: 8px; /* Ajoute un peu d'espace entre le bord et le texte */
+    margin-bottom: 20px; /* Ajoute un espace entre chaque champ de saisie */
+    box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur */
+    border-radius: 4px; /* Arrondit les coins du champ de saisie */
+    border: 1px solid #ccc; /* Ajoute une bordure grise autour du champ de saisie */
+  }
+
+  input[type="submit"] {
+    background-color: rgb(255, 128, 0); /* Couleur de fond du bouton "Se connecter" */
+    color: white; /* Couleur du texte du bouton "Se connecter" */
+    padding: 10px 20px; /* Ajoute un peu d'espace entre le texte et les bords */
+    border: none; /* Supprime la bordure du bouton */
+    border-radius: 4px; /* Arrondit les coins du bouton */
+    cursor: pointer; /* Change le curseur lorsqu'on survole le bouton */
+  }

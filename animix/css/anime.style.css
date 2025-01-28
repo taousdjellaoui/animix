@@ -1,0 +1,43 @@
+*{
+background-color:black;
+}
+h3, h4 , h5{
+    color: white;
+} 
+
+.image-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main{
+    margin: auto;
+    max-width: 950px;
+}
+
+.catalogue-img{
+    max-width:200px;
+    max-height:250px;
+    
+}
+
+.catalogue-img:hover{
+    transform: scale(1.2); 
+}
+
+.title{
+font-family: Tahoma, sans-serif;
+color: white;
+font-size: 14px;
+text-align: left;
+}
+
+.main p{
+    color: aqua;
+    font-size: 14px;
+    text-align: left;
+
+}
+
