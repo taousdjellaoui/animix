@@ -20,11 +20,10 @@
 <body>
     <header>
         <!-- ici on replace le code avec  le "include_once pour l'entête" (code php)
-        pour le moment sans php les styles dans le fichier css de l'entete affectent aussi les autre fichier-->
-           
+        pour le moment sans php les styles dans le fichier css de l entete affectent aussi les autre fichier--> 
         <?php
-        require_once('Modele/DAO/utilisateurDAO.class.php');
-        require_once("Modele\DAO\mediaDAO.php");
+        require_once('Modele/DAO/UtilisateurDAO.class.php');
+        require_once("Modele/DAO/mediaDAO.php");
         
       ?>  
         <?php
@@ -97,7 +96,7 @@
                <link rel="stylesheet" href="css\formulaire.style.css">   
           </head>
           <div>
-          <!--------------- Le formulaire d'ajout--------------->
+          <!--------------- Le formulaire d ajout--------------->
           <form  method="POST">
             <label for="user">Nom d'utilisateur :</label> <br>
             <input type="text" id="user" name="user" required><br>
@@ -165,7 +164,7 @@
                 <link rel="stylesheet" href="css\formulaire.style.css">   
            </head>
            <div>
-           <!--------------- Le formulaire d'ajout--------------->
+           <!--------------- Le formulaire d ajout--------------->
            <form method="post" >
            
 			     <select name="type">
@@ -230,8 +229,6 @@
       </div>
         
     </div>
-   
-       
 
 
    
